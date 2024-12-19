@@ -19,6 +19,10 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '21'
+      - name: maven command
+        run: mvn package
+      - name: display the folder content post maven excution
+        run: ls
 
 
           
