@@ -13,12 +13,11 @@ jobs:
         run: echo "Welcome to GitHub Actions"
       - name: display list of files
         run:
-          pwd
           ls
       - name: setup Java JDK
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin' # See 'Supported distributions' for available options
+          distribution: 'temurin'
           java-version: '21'
 
 
